@@ -1,10 +1,8 @@
-function divide(){
-    
+function divide(a, b){
+    return a / b;    
 }
 
-let a = 2000;
-let b = 100;
-console.log(a / b);
+console.log(divide(2000, 100));
 
 const square = (x) => x * x;
 
